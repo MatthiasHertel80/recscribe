@@ -1,0 +1,157 @@
+RECSCRIBE FREEWARE LICENSE
+Version 1.0, November 2026
+Copyright (c) 2026 Matthias Hertel. All rights reserved.
+
+English version first, German version below (Deutsche Fassung weiter unten).
+
+--------------------------------------------------------------------------------
+ENGLISH
+--------------------------------------------------------------------------------
+
+By installing, copying or using Recscribe (the "Software") you accept these terms. If you do
+not accept them, do not use the Software.
+
+1. License grant
+   You may use the Software free of charge, for private and for commercial purposes, on any
+   number of computers that you own or control. You may pass on the unmodified, complete
+   release package (including this file and THIRD-PARTY-NOTICES.txt) to others, free of
+   charge.
+
+2. What is not allowed
+   a) Selling, renting or lending the Software, or charging for its distribution (a
+      reasonable fee for the data carrier or the bandwidth is fine).
+   b) Modifying the Software, creating derived works, or removing or changing copyright
+      notices, this license or the third-party notices.
+   c) Reverse engineering, decompiling or disassembling the Software, except to the extent
+      that mandatory law allows it despite this restriction.
+   d) Using the Software for unlawful purposes. This includes recording, storing or
+      transcribing conversations without the consent or legal basis that applies where you
+      are. You alone are responsible for the lawfulness of your recordings and of the
+      processing of the people's voices and words in them.
+
+3. Ownership and third-party components
+   The Software is protected by copyright. All rights not expressly granted remain with the
+   author. The Software contains open-source components which are licensed under their own
+   terms, see THIRD-PARTY-NOTICES.txt. Nothing in this license limits the rights you have
+   under those licenses for those components.
+
+4. Components and services that are not part of the Software
+   a) On first use, transcription and speaker separation load Python packages (via `uv`)
+      and speech models from the internet. They come from third parties and are covered by
+      their own licenses and terms.
+   b) The optional AI features send transcript text to the AI provider you configure, using
+      your own API key. Costs, terms of use and data handling are between you and that
+      provider. Check what you are allowed to send before you use it.
+   c) The Software itself contains no tracking or analytics and sends nothing to the author.
+
+5. Names, no affiliation
+   Product and company names (for example the name of a recorder) are trademarks of their
+   owners and are used only to describe compatibility. The Software is an independent
+   project and is not affiliated with, made by, or endorsed by any recorder manufacturer.
+
+6. Your data, backups
+   The Software can remove recordings from a recorder when you ask it to (manually or after
+   a sync). It does so only after it has verified a local copy, and by default into the
+   recorder's trash where the system provides one; on Windows, removal is permanent. Keep
+   your own backups of recordings that matter to you.
+
+7. No warranty
+   The Software is provided "as is", free of charge, without warranty of any kind, express
+   or implied, including fitness for a particular purpose, accuracy of transcripts, or
+   freedom from errors. Machine transcripts and speaker labels can be wrong: check them
+   before you rely on them.
+
+8. Liability
+   The author is liable only for intent and gross negligence, for injury to life, body or
+   health, for fraudulently concealed defects and as far as mandatory law (for example the
+   product liability act) provides otherwise. Any other liability is excluded.
+
+9. Updates and support
+   There is no obligation to provide updates, fixes or support.
+
+10. Term
+    This license applies until terminated. It ends automatically if you break these terms.
+    Then you must stop using the Software and delete all copies.
+
+11. Governing law, severability
+    German law applies, excluding the UN Convention on Contracts for the International Sale
+    of Goods. Mandatory consumer protection rules of the country where you live remain
+    unaffected. If a provision is invalid, the others stay valid.
+
+--------------------------------------------------------------------------------
+DEUTSCH
+--------------------------------------------------------------------------------
+
+Mit der Installation, dem Kopieren oder der Nutzung von Recscribe (der "Software") erkennst
+du diese Bedingungen an. Wenn du sie nicht akzeptierst, nutze die Software nicht.
+
+1. Nutzungsrecht
+   Du darfst die Software kostenlos privat und gewerblich auf beliebig vielen Rechnern
+   nutzen, die dir gehören oder die du verwaltest. Du darfst das unveränderte, vollständige
+   Release-Paket (mit dieser Datei und THIRD-PARTY-NOTICES.txt) unentgeltlich an andere
+   weitergeben.
+
+2. Nicht erlaubt
+   a) Die Software zu verkaufen, zu vermieten, zu verleihen oder für ihre Weitergabe Geld zu
+      verlangen (ein angemessener Betrag für Datenträger oder Datenverkehr ist in Ordnung).
+   b) Die Software zu verändern, abgeleitete Werke zu erstellen oder Urheberrechtshinweise,
+      diese Lizenz oder die Hinweise zu Drittsoftware zu entfernen oder zu ändern.
+   c) Die Software zurückzuentwickeln, zu dekompilieren oder zu disassemblieren, soweit
+      nicht zwingendes Recht das trotz dieser Beschränkung erlaubt.
+   d) Die Software für rechtswidrige Zwecke zu nutzen. Dazu gehört, Gespräche ohne die
+      Einwilligung oder Rechtsgrundlage aufzunehmen, zu speichern oder zu transkribieren,
+      die an deinem Ort gelten (in Deutschland etwa § 201 StGB). Für die Rechtmäßigkeit
+      deiner Aufnahmen und der Verarbeitung der Stimmen und Aussagen darin bist allein du
+      verantwortlich.
+
+3. Eigentum und Drittkomponenten
+   Die Software ist urheberrechtlich geschützt. Alle nicht ausdrücklich eingeräumten Rechte
+   verbleiben beim Autor. Die Software enthält Open-Source-Komponenten, die unter ihren
+   eigenen Bedingungen stehen, siehe THIRD-PARTY-NOTICES.txt. Diese Lizenz schränkt deine
+   Rechte aus jenen Lizenzen an diesen Komponenten nicht ein.
+
+4. Nicht enthaltene Komponenten und Dienste
+   a) Bei der ersten Nutzung laden Transkription und Sprechertrennung Python-Pakete (über
+      `uv`) und Sprachmodelle aus dem Internet. Sie stammen von Dritten und unterliegen
+      deren Lizenzen und Bedingungen.
+   b) Die optionalen KI-Funktionen senden Transkripttext mit deinem eigenen API-Schlüssel an
+      den von dir eingestellten Anbieter. Kosten, Nutzungsbedingungen und Datenverarbeitung
+      regelst du mit diesem Anbieter. Prüfe vor der Nutzung, was du senden darfst.
+   c) Die Software selbst enthält kein Tracking und keine Statistik und sendet nichts an den
+      Autor.
+
+5. Namen, keine Verbindung
+   Produkt- und Firmennamen (zum Beispiel der Name eines Rekorders) sind Marken ihrer
+   Inhaber und dienen nur der Beschreibung der Kompatibilität. Die Software ist ein
+   unabhängiges Projekt und steht in keiner Verbindung zu einem Rekorder-Hersteller, wird
+   nicht von ihm hergestellt und nicht von ihm empfohlen.
+
+6. Deine Daten, Sicherungen
+   Die Software kann auf deinen Wunsch Aufnahmen vom Rekorder entfernen (von Hand oder nach
+   einem Sync). Sie tut das erst, nachdem sie eine lokale Kopie geprüft hat, und standardmäßig
+   in den Papierkorb des Rekorders, wo das System einen bietet; unter Windows ist das
+   Entfernen endgültig. Sichere Aufnahmen, die dir wichtig sind, zusätzlich selbst.
+
+7. Keine Gewährleistung
+   Die Software wird kostenlos und "wie besehen" überlassen, ohne Gewährleistung jeder Art,
+   auch nicht für Eignung zu einem bestimmten Zweck, Richtigkeit von Transkripten oder
+   Fehlerfreiheit. Maschinelle Transkripte und Sprecherzuordnungen können falsch sein:
+   prüfe sie, bevor du dich darauf verlässt.
+
+8. Haftung
+   Der Autor haftet nur für Vorsatz und grobe Fahrlässigkeit, für die Verletzung von Leben,
+   Körper oder Gesundheit, für arglistig verschwiegene Mängel und soweit zwingendes Recht
+   (zum Beispiel das Produkthaftungsgesetz) etwas anderes bestimmt. Jede weitere Haftung ist
+   ausgeschlossen.
+
+9. Aktualisierungen und Support
+   Es besteht kein Anspruch auf Aktualisierungen, Fehlerbehebung oder Support.
+
+10. Dauer
+    Diese Lizenz gilt, bis sie beendet wird. Sie endet automatisch, wenn du gegen diese
+    Bedingungen verstößt. Dann musst du die Nutzung einstellen und alle Kopien löschen.
+
+11. Anwendbares Recht, Teilunwirksamkeit
+    Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts. Zwingende
+    Verbraucherschutzvorschriften des Staates, in dem du lebst, bleiben unberührt. Ist eine
+    Bestimmung unwirksam, bleiben die übrigen wirksam.
