@@ -17,13 +17,13 @@ Get the latest package from **[Releases](https://github.com/MatthiasHertel80/rec
 
 | System | File | Status |
 |---|---|---|
-| macOS 11+ (Apple Silicon and Intel) | `recscribe-<version>-macos-universal.zip` | best tested |
-| Linux x86_64 | `recscribe-<version>-linux-x86_64.tar.gz` | automated tests |
-| Linux aarch64 | `recscribe-<version>-linux-aarch64.tar.gz` | automated tests |
-| Windows 10/11 x86_64 | `recscribe-<version>-windows-x86_64.zip` | beta |
+| macOS 11+ (Apple Silicon and Intel) | `recscribe-<version>-macos-universal.dmg` | best tested |
+| Windows 10/11 x86_64 | `recscribe-<version>-windows-x86_64-setup.exe` (installer, no administrator rights) or `-windows-x86_64.zip` (portable) | beta |
+| Linux x86_64 and aarch64, Debian/Ubuntu | `recscribe-<version>-linux-amd64.deb`, `recscribe-<version>-linux-arm64.deb` | automated tests |
+| Linux x86_64 and aarch64, other | `recscribe-<version>-linux-x86_64.tar.gz`, `recscribe-<version>-linux-aarch64.tar.gz` (with `install.sh`) | automated tests |
 
-Each package contains a `README.txt` (English and German) with the install steps. The programs are
-**not code-signed**, so macOS and Windows warn on first start; the README shows how to proceed.
+Each package comes with a `README.txt` (English and German) with the install steps. The programs
+are **not code-signed**, so macOS and Windows warn on first start; the README shows how to proceed.
 Verify downloads with `SHA256SUMS`.
 
 ## What it does
@@ -36,12 +36,14 @@ Verify downloads with `SHA256SUMS`.
 - Optional AI step: minutes, meeting notes, tasks, summaries, or your own templates, with your own
   key (Anthropic, OpenAI-compatible, or a local server such as Ollama).
 - Optional: remove recordings from the recorder, only after a verified local copy.
+- Clean up: remove old recordings by age and selection, from the recorder and from the library,
+  with a preview and a confirmation first.
 - Native window in English and German, plus a full command line.
 
 ## Documentation
 
-- [User guide (English)](docs/guide-en.md)
-- [Handbuch (Deutsch, vollständig)](docs/handbuch.md)
+- [User guide (English)](docs/guide-en.md): installation and use of the window, with screenshots
+- [Handbuch (Deutsch)](docs/handbuch.md): the same in German, plus command line and technical appendix
 - [Changelog](CHANGELOG.md)
 
 ## Requirements
